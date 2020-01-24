@@ -47,9 +47,9 @@ const App: React.FC = () => (
           <Route path="/" render={() => <Redirect to="/tab1" />} exact={true} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
+          <IonTabButton tab="tab1" href="/tab">
             <IonIcon icon={flash} />
-            <IonLabel>Tab One</IonLabel>
+            <IonLabel>Tab JS</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
             <IonIcon icon={apps} />
